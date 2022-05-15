@@ -1,0 +1,30 @@
+{
+  "name": "RussianRomanizer",
+  "version": "0.0.0",
+  "description": "Converting Russian text into Latin alphabet notation on an Arduino, M5Stack and M5StickC.",
+  "keywords": "esp32, arduino, m5, m5stack, m5stickc, russian, russian-language",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yokohama-Miyazawa/RussianRomanizer"
+  },
+  "authors": {
+    "name": "Osamu Miyazawa",
+    "email": "miyazawa.o.aa@m.titech.ac.jp",
+    "url": "https://github.com/Yokohama-Miyazawa/RussianRomanizer"
+  },
+  "license": "GPL-3.0-only",
+  "frameworks": "arduino",
+  "dependencies": [
+    {
+      "name": "Arduino",
+      "version": "*"
+    }
+  ],
+  "examples": [
+    {
+      "name": "Arduino",
+      "base": "examples/Arduino",
+      "files": ["arduino_example.ino", "README.md"]
+    }
+  ]
+}
